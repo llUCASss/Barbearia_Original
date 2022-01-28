@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Barbearia Alura</title>
+    <link rel="stylesheet" href="pagina_contato/CSS/contato.css">
+    <link rel="shortcut icon" href="pagina_contato/imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+
+        <div id="container">
+
+            <div id="img">
+                <img src="pagina_contato/imagens/caveira.png" alt="Logo da Barbearia Alura">
+            </div>
+            
+            <nav>
+
+                <div class="logo">
+
+                    <h1>Barbearia Original</h1>
+
+                </div>
+
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html" class="contato">Contato</a></li>
+                </ul>
+            </nav>
+            
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <div id="container2">
+
+            <form action="">
+
+                <div>
+                    <label for="nomesobrenome">Nome:<br></label>
+                    <input type="text" id="nomesobrenome" placeholder="Digite seu nome" required>
+                </div>
+
+
+           
+                <div>
+                    <label for="email">Email:<br></label>
+                    <input type="email" id="email" placeholder="Digite seu email" required>
+                </div>
+
+           
+
+                <div>
+                    <label for="telefone">Telefone:<br></label>
+                    <input type="tel" id="telefone" placeholder="Digite seu telefone" required>
+                </div>
+
+
+
+                <div>
+                    <label for="mensagem">Mensagem:<br></label>
+                    <textarea name="" id="mensagem" cols="30" rows="10" placeholder="Dígite suas duvidas..."></textarea>
+                </div>
+
+
+                <fieldset id="campo_de_marcacao">
+
+                    <legend class="campos">Como prefere Nosso contato ?</legend>
+    
+                    <label for="radio-email">Email:</label>
+                    <input type="radio" name="contato" value="email" id="radio-email" class="campos" required>
+    
+                    <br>
+    
+                    <label for="radio-telefone">Telefone:</label>
+                    <input type="radio" name="contato" value="telefone" id="radio-telefone" class="campos" required>
+    
+                    <br>
+    
+                    <label for="radio-whatsapp">Whatsapp:</label>
+                    <input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp" class="campos" required>
+    
+                    <br>
+    
+                    <fieldset id="selecao">
+
+                        <p>Qual horário prefere ser atendido?</p>
+
+                        <select>
+                            <option>Manhã</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+                        </select>
+                        
+                    </fieldset>
+    
+                    <label> <input type="checkbox"> Gostaria de receber nossas novidades por email ?</label>
+    
+                </fieldset>
+
+
+                <div>
+                    <input type="submit" value="Enviar Formulário" id="enviar">
+                </div>
+
+            </form>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div id="container3">
+
+            <div>
+
+                <img src="pagina_contato/imagens/caveira.png" alt="Logo da Barbearia Alura">
+
+                <p>&copy; Copyright Barbearia Original - 2022</p>
+
+            </div>
+
+        </div>
+
+    </footer>
+    
+</body>
+</html>
