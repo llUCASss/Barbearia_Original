@@ -415,6 +415,24 @@ a{
 
 }
 
+#atencao{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+#atencao h1, a{
+
+    font-size: 2.5rem;
+
+}
+
+
+
 @media (max-width: 575.98px) { 
 
 
